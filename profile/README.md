@@ -14,3 +14,8 @@ This repository contains the code for [our publication](https://doi.org/10.1186/
 
 ### 4) [Socioeconomic disparities and the role of comorbidity in hospital mortality](https://github.com/DAM-IC/socioeconomic-disparities-and-the-role-of-comorbidity-in-hospital-mortality)
 This repository contains the code for [our study](https://doi.org/10.1097/CCM.0000000000007271) on socioeconomic disparities in hospital mortality among Dutch ICU patients. It provides the complete R-based computational pipeline that integrates clinical ICU data with household-level SES indicators, performs data cleaning and imputation, and fits mixed-effects logistic regression models to quantify the association between SES quintiles and hospital mortality, including the effect-modifying role of major comorbidities.    
+
+### 5) [Dynamic SOFA based prognostic models to optimize ICU triage during scarcity](https://github.com/DAM-IC/Dynamic-SOFA-based-prognostic-models-to-optimize-ICU-triage-during-scarcity)
+This repository contains the code for our  publication on dynamic SOFA-based prognostic models to optimise ICU triage during scarcity in COVID-19 patients (DOI: t.b.d.). It provides the complete R-based pipeline for developing and externally validating three logistic regression models using the day 1 SOFA score and SOFA trajectories up to day 3 and day 6 after initiation of mechanical ventilation. The code also includes comparisons with age-based triage using AUROC, calibration plots, and decision matrices, and randomly generated dummy data are provided to demonstrate the required data format.
+
+
